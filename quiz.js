@@ -27,3 +27,14 @@ if (question5.toUpperCase() === 'MUMBAI') {
 }
 // Output results
 document.write("<p> Total number of correct answers is " + numberOfCorrectAnswers +"</p>");
+
+//output ranks 
+if (numberOfCorrectAnswers === 5 ) {
+  document.write('<p><strong>You earned gold crown</strong></p>');
+} else if (numberOfCorrectAnswers >= 3) {
+  document.write('<p><strong>You earned silvercrown</strong></p>');
+} else if (numberOfCorrectAnswers >= 2) {
+  document.write('<p><strong>You earned bronze crown</strong></p>');
+} else {
+  document.write('<p><strong>You earned no crown. You need to study</strong></p>');
+}
