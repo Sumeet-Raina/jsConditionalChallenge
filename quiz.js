@@ -25,3 +25,5 @@ if (question4.toUpperCase() === 'MODI') {
 if (question5.toUpperCase() === 'MUMBAI') { 
   numberOfCorrectAnswers += 1;
 }
+// Output results
+document.write("<p> Total number of correct answers is " + numberOfCorrectAnswers +"</p>");
