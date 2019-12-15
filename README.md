@@ -4,7 +4,5 @@
 ```
 git clone repo_name
 ```
-```
-bundle install
-```
+
 
